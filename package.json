@@ -1,0 +1,17 @@
+{
+  "name": "elysia-apollo-bun",
+  "version": "1.0.0",
+  "description": "Bun Apollo GraphQL Server powered by Elysia",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "bun src/index.js"
+  },
+  "author": "Matthew Groff",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "@elysiajs/apollo": "^0.2.0",
+    "elysia": "^0.2.0",
+    "graphql": "^16.6.0"
+  }
+}
